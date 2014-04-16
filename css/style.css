@@ -735,11 +735,7 @@ body {
 }
 
 .section#register {
-    background: url(../img/bg2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(../img/bg3.jpg) repeat;
 }
 
 /* ------------------------------------------------------------------------------------------
@@ -1294,4 +1290,8 @@ div.fancy-select select:focus + div.trigger {
 .section h2, .section#register h3  {
     margin-top: 0px !important;
     margin-bottom: 10px !important;
+}
+
+div.speaker {
+    height: 270px !important;
 }

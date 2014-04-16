@@ -1,6 +1,7 @@
 .fraction-slider{
 	position:relative;
-	width:100%; height:100%;
+	width:100%; 
+    height:100%;
 	overflow:visible;
 }
 
@@ -34,7 +35,7 @@
 
 .fs_loader{
 	width:100%; height:400px;
-	background:url(images/fs.spinner.gif) center center no-repeat transparent;
+	background:url('../img/fractionslider/fs.spinner.gif') center center no-repeat transparent;
 }
 
 /** CONTROLS **/
@@ -43,25 +44,28 @@
 .fraction-slider .next{
 	display:none;
 	position:absolute;
-	width:45px; height:45px;
+	width:45px;
+    height:109px;
 	z-index:9999;
 }
 
 .fraction-slider .prev{
-	left:10px; top:45%;
-	background:url(images/fs.prevnext.png) 0px 0px no-repeat transparent;
+	left:10px; 
+    top:35%;
+	background:url('../img/fractionslider/fs.prevnext.png') 0 0 no-repeat transparent;
 	
 }
 .fraction-slider .prev:hover{
-	background:url(images/fs.prevnext.png) 0px -45px no-repeat transparent;
+	background:url('../img/fractionslider/fs.prevnext.png') 0 -109px no-repeat transparent;
 }
 
 .fraction-slider .next{
-	right:10px; top:185px;
-	background:url(images/fs.prevnext.png) -45px 0px no-repeat transparent;
+	right:10px; 
+    top:35%;
+	background:url('../img/fractionslider/fs.prevnext.png') -45px 0 no-repeat transparent;
 }
 .fraction-slider .next:hover{
-	background:url(images/fs.prevnext.png) -45px -45px no-repeat transparent;
+	background:url('../img/fractionslider/fs.prevnext.png') -45px -109px no-repeat transparent;
 }
 
 .fraction-slider:hover .prev,
@@ -81,8 +85,8 @@
 	display:inline-block;
 	width:14px; height:14px;
 	margin:0 5px 0 0;
-	background:url(images/fs.pager.png) 0px -14px no-repeat transparent;
+	background:url('../img/fractionslider/fs.pager.png') 0px -14px no-repeat transparent;
 }
 .fs-pager-wrapper .active{
-	background:url(images/fs.pager.png) 0px 0px no-repeat transparent;
+	background:url('../img/fractionslider/fs.pager.png') 0px 0px no-repeat transparent;
 }
